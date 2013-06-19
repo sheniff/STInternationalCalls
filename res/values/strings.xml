@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ST Intl. Calls</string>
+    <string name="dialog_action_ok">Yes</string>
+    <string name="dialog_action_cancel">No, regular call</string>
+    <string name="dialog_info_number">Your are calling to:</string>
+    <string name="dialog_question">Use ST Intl. Calls?</string>
+    <string name="pref_title_enable_service">Enable Service</string>
+    <string name="pref_description_enable_service">If enabled, just close this screen and start to call your contacts.\nConfig options are shown below.</string>
+    <string name="pref_default_call_center_number">+14106355555</string>
+    <string name="pref_title_call_center_number">Switchboard Number</string>
+    <string name="pref_description_call_center_number">Change default switchboard number, if needed. You can choose a preset number below.\nDefault: Straight Talk International Calls.</string>
+    <string name="pref_title_preset_call_center">Preset Switch Boards</string>
+    <string name="pref_description_preset_call_center">Choose between one of the preset switchboards or set a new one above.</string>
+    <string name="pref_title_target_phones">Target Numbers</string>
+    <string name="pref_description_target_phones">Choose the kind of phone numbers in which you want to use this application.</string>
+    <string name="pref_title_dial_delay">Dial Delay</string>
+    <string name="pref_description_dial_delay">Time between the call is stablished and the phone number is dialed. It\'s represented as a \',\' (comma) each 2 seconds separating switchboard number and phone number during the call.\nDefault: 4 seconds (2 commas).\nIf the switchboard doesn\'t recognize the dialed number, try to increase this time.</string>
+    
+    <string-array name="pref_preset_call_center_list_titles">
+        <item>Straight Talk International Calls (+1 410 635 5555)</item>
+    </string-array>
+    <string-array name="pref_preset_call_center_list_values">
+        <item>+14106355555</item>
+    </string-array>
+
+    <string-array name="pref_target_phones_list_titles">
+        <item>All numbers</item>
+        <item>Non-American numbers</item>
+        <item>Numbers starting by "+" or "00"</item>
+    </string-array>
+    <string-array name="pref_target_phones_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_dial_delay_list_titles">
+        <item>2 seconds</item>
+        <item>4 seconds</item>
+        <item>6 seconds</item>
+        <item>8 seconds</item>
+    </string-array>
+    <string-array name="pref_dial_delay_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_service"
+        android:summary="@string/pref_description_enable_service"
+        android:title="@string/pref_title_enable_service" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_call_center_number"
+        android:inputType="textCapWords"
+        android:key="call_center_number"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_call_center_number" android:summary="@string/pref_description_call_center_number"/>
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_preset_call_center_list_titles"
+        android:entryValues="@array/pref_preset_call_center_list_values"
+        android:key="preset_call_center"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_preset_call_center" android:summary="@string/pref_description_preset_call_center"/>
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_target_phones_list_titles"
+        android:entryValues="@array/pref_target_phones_list_values"
+        android:key="target_phones"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_target_phones" android:summary="@string/pref_description_target_phones"/>
+
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/pref_dial_delay_list_titles"
+        android:entryValues="@array/pref_dial_delay_list_values"
+        android:key="dial_delay"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_dial_delay" android:summary="@string/pref_description_dial_delay"/>
+    
+</PreferenceScreen>
